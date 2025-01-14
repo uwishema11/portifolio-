@@ -369,6 +369,20 @@ textarea {
   overflow: hidden;
   position: relative;
 }
+.mockup-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.project__image {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 70.5%;
+  height: 71%;
+  border-radius: 5px;
+  object-fit: fill;
+}
 .projects__row-img {
   width: 100%;
   display: block;
@@ -378,8 +392,8 @@ textarea {
   position: absolute;
   top: 10.5%;
   left: 14.5%;
-  width: 432px;
-  height: 271px;
+  width: 71%;
+  height: 73%;
   border-radius: 3px;
 }
 .projects__row-content {
